@@ -140,6 +140,14 @@ aside form table tr>td{
 aside form table tr>td:first-child{
     width: 40%; 
     text-align: right;
+    vertical-align: top;
+}
+
+aside form table tr td textarea{
+    font-size: 120%;
+}
+aside form table tr td label{
+    font-size: 80%;
 }
 
 aside button{
@@ -155,6 +163,11 @@ aside button{
     color: #fff;
     font-size: 100%
 }
+
+.hint{
+    color: grey;
+    font-size: 80%;
+}
 footer{
     height: 60px; 
     padding-top: 10px; 
@@ -164,6 +177,9 @@ footer{
     background: #000000;
 }
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000000;
+}
 
 
 

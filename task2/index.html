@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <header class="head clearfix">
+    <header>
         <img src="baidu_logo.png" alt="baidu_logo.png">
         <nav>
             <ul>
@@ -175,28 +175,28 @@
         </header>       
         <form>
             <table>
-                <tr>
-                    <td>
-                        <label>请输入邮箱地址：</label>
-                    </td>
-                    <td>
-                        <input type="email" placeholder="这是一个文本输入框">
-                    </td>
-                </tr>
+                    <tr>
+                        <td>
+                            <label>请输入邮箱地址</label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="这是一个文本输入框">
+                        </td>
+                    </tr>
                 <tr>
                     <td></td>
                     <td>
-                        <label>邮箱地址请按要求格式输入</label>
+                        <label class="hint">邮箱地址请按要求格式输入</label>
                     </td>
                 </tr>
                 <tr>
-                    <td><label>请输入密码:</label></td>
+                    <td><label>请输入密码</label></td>
                     <td>
                         <input type="password" placeholder="●●●●●●●●●">
                     </td>
                 </tr>
                 <tr>
-                    <td><label>请输入密码:</label></td>
+                    <td><label>请输入密码</label></td>
                     <td>
                         <input type="password" placeholder="●●●●●●●●●">
                     </td>
@@ -204,11 +204,11 @@
                 <tr>
                     <td></td>
                     <td>
-                        <label>密码为6-16位英文数字</label>
+                        <label class="hint">密码为6-16位英文数字</label>
                     </td>
                 </tr>
                 <tr>
-                    <td>性别：</td>
+                    <td>性别</td>
                     <td>
                         <input type="radio" checked="checked" name="sex" value="male" />
                         <label for="sex">男</label> 
@@ -217,7 +217,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>城市：</td>
+                    <td>城市</td>
                     <td>
                         <select>
                             <option>北京</option>
@@ -228,7 +228,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>爱好：</td>
+                    <td>爱好</td>
                     <td>
                             <input type="checkbox">运动
                             <input type="checkbox">艺术
@@ -237,7 +237,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>个人描述：</td>
+                    <td id="personal">个人描述</td>
                     <td>
                             <textarea rows="5" cols="80">这是一个多行输入框，输入你的个人描述</textarea>
                     </td>
