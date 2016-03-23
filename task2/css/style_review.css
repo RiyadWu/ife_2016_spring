@@ -1,0 +1,39 @@
+html{
+	width: inherit;
+	margin: 1px;
+	padding: 1px;
+	font-family: "微软雅黑"
+}
+
+body{
+	width: inherit;
+	margin: 1px;
+	padding: 1px;
+	background-color: #bcbcbc;
+	border:none;
+}
+
+header{
+    height: 60px; 
+    line-height: 60px; 
+    width: 100%; 
+    background: #333333; 
+    color: #ffffff;
+}
+
+header img{
+	margin-left: 40px;
+	height: 90%;
+}
+
+header nav {
+	float: right;
+	margin-right: 20px;
+}
+
+header nav ul li{
+    float: left; 
+    margin-left: 28px; 
+    width: 68px;
+    color: #000000;
+}
