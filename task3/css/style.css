@@ -6,6 +6,7 @@
 	background-color: #eee;
 	border: 1px solid #999;
 	overflow: auto;
+	min-width: 500px;
 }
 
 .left{
@@ -13,11 +14,8 @@
 	box-sizing: border-box;
 	width: 200px;
 	float: left;
-	padding: 20px;
-	margin: 20px;
 	border: 1px solid #999;
 	background-color: white;
-	
 }
 
 .right{
@@ -26,39 +24,46 @@
 	background-color: white;
 	border: 1px solid #999;
 	width: 120px;
-	margin:20px; 
 }
 
 .middle{
+	box-sizing: border-box;
 	border: 1px solid #999;
 	background-color: white;
 	margin-left: 240px;
 	margin-right: 160px;
-	margin-top: 20px;
 }
 
 .left img{
 	float: left;
+	padding: 20px;
 }
 
-.left h2{
+#teamName{
 	position: absolute;
-	top: 0;
+	top: 20px;
 	right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
 }
 
 .right img{
-	margin-top: 20px;
-	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #last{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 img{
 	width: 80px;
 	height: 80px;
-	margin: 20px;
+}
+
+p{
+	padding: 20px;
 }
