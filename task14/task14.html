@@ -40,9 +40,11 @@ var aqiData = [
     return a[1]<b[1]?1:-1;
   });
 
+  var numbersCn = ['一','二','三','四','五','六','七','八','九'];
+
   for (var i = 0; i < sortedArray.length; i++) {
       var li = document.createElement("li");
-      var text = document.createTextNode("第"+(i+1)+"名："+sortedArray[i][0]);
+      var text = document.createTextNode("第"+(numbersCn[i])+"名："+sortedArray[i][0]);
       li.appendChild(text);
       ul.appendChild(li);
   }
