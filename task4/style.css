@@ -1,0 +1,29 @@
+.container{
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+	position: absolute;
+	right: 50%;
+	margin-right: -200px;
+	top:50%;
+	margin-top: -100px;
+	overflow: hidden;
+}
+
+.circle{
+	position: absolute;
+	width:100px;
+	height:100px;
+	background: #fc0;
+	border-radius: 50%;
+}
+
+.top{
+	left: -50px;
+	top:-50px;
+}
+
+.bottom{
+	right: -50px;
+	bottom: -50px;
+}
